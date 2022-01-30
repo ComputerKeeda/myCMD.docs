@@ -26,3 +26,5 @@ here we can see how to make
 To delete directories/folders, you'll need to use the `rmdir` or `rd` command. Both commands work the same way, but let's stick with `rmdir` since it's a bit more expressive.
 
 since I am not making all the docs I am giving you [this link](https://www.freecodecamp.org/news/cmd-delete-folder-how-to-remove-files-and-folders-in-windows/) it contains some more information about flags and all
+
+so lets learn cmd 
