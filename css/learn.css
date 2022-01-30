@@ -1,0 +1,10 @@
+*{padding:0;margin:0;}
+.input,.output{
+    padding:5px;
+    margin:5px;
+    background-color: aqua;
+    width: fit-content;
+}
+.output{
+    background-color: lightgreen;
+}
