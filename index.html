@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Markedown Online Compiler</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="heading">Markdown(.mk) Online Compiler</h1>
+        <textarea id="markit" value="**example code**"></textarea>
+        <h2 id="output-heading">Output</h2>
+        <div id="output"></div>
+    </center>
+
+    <script src="js/mark.js"></script>
+    <script src="js/shot.js"></script>
+    <script>
+        setInterval(() => {
+            id('output').innerHTML = marked.parse(id('markit').value)
+        }, 100)
+    </script>
+</body>
+
+</html>
