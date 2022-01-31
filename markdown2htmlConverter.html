@@ -1,27 +1,28 @@
 <!doctype html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <title>Markedown to html converter</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/learn.css">
 </head>
 
 <body>
-    <center>
-        <h1 class="heading">Markdown(.mk) to html converter</h1>
+    <section class="page-1">
+        <h1 class="heading"><span>Markdown(.mk)</span> To HTML Converter</h1>
         <textarea id="markit" value="**example code**"></textarea>
         <h2 id="output-heading">Output</h2>
         <textarea id="output"></textarea>
-    </center>
+        <div class="blank"></div>
+        </section>
 
-    <script src="js/mark.js"></script>
-    <script src="js/shot.js"></script>
-    <script>
-        setInterval(() => {
-            id('output').innerHTML = marked.parse(id('markit').value)
-        }, 100)
-    </script>
+<script src="js/mark.js"></script>
+<script src="js/shot.js"></script>
+<script>
+    setInterval(() => {
+        id('output').innerHTML = marked.parse(id('markit').value)
+    }, 100)
+</script>
 </body>
 
 </html>

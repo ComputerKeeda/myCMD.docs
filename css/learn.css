@@ -2,9 +2,9 @@
 .input,.output{
     padding:5px;
     margin:5px;
-    background-color: aqua;
+    background-color: darkcyan;
     width: fit-content;
 }
 .output{
-    background-color: lightgreen;
+    background-color: gray;
 }
